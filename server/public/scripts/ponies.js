@@ -1,3 +1,4 @@
+import '/src/style.css'
 const renderPonies = async () => {
     const response = await fetch('/ponies')
     const data = await response.json()
@@ -50,4 +51,13 @@ const renderPonies = async () => {
     }
 }
 
-document.addEventListener('DOMContentLoaded', renderPonies)
+const requestedUrl = window.location.href.split('/').pop()
+
+if (requestedUrl) {
+      window.location.href = '../404.html'
+}
+else {
+    document.addEventListener('DOMContentLoaded', renderPonies)
+}
+
+

@@ -53,6 +53,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #FFFFFF;
+  color: #321057;
 }
 
 h1,
@@ -92,10 +94,31 @@ code,
   color: var(--text-h);
 }
 
+.pony-details p {
+  color: #321057;
+}
+
+.pony-details h2 {
+  color: #83279A;
+}
+
+.pony-info {
+  display: flex;
+}
+
+.pony-details {
+  flex-grow: 12px;
+}
+
+.image-container {
+  margin-right: 10px;
+}
+
+
 header {
   position: relative;
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
 }
 
 header img{
@@ -134,6 +157,7 @@ header img{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #321057;
 }
 
 .top-container img {
@@ -141,13 +165,26 @@ header img{
   height: 80px;
 }
 
+.bottom-container p {
+  color: #321057;
+}
+
+.bottom-container h3 {
+  color: #83279A;
+}
+
+.bottom-container a {
+  background-color: #e790d3;
+  color: #321057;
+}
+
 .card {
     width: 300px;
-    height: 400px;
+    height: 450px;
     background: transparent;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(3, 7, 89);
+    border-color: #83279A;
     border-radius: 0.3rem;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
     margin-top: 0px;
@@ -171,13 +208,10 @@ header img{
 }
 
 .bottom-container p {
-    margin: 2px;
+    margin: 5px;
 }
 
-.bottom-container a {
-    color: rgb(228, 16, 133);
-    text-decoration: none;
-}
+
 code {
   font-size: 15px;
   line-height: 135%;
@@ -202,6 +236,15 @@ code {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
+}
+
+.header-right button {
+  background-color: #13B5D0 !important;
+  color: #321057 !important;
+}
+
+.header-left h1 {
+  color: #321057 !important;
 }
 
 .hero {
