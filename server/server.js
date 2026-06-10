@@ -4,9 +4,6 @@ import poniesRouter from './routes/ponies.js'
 const app = express()
 const PORT = process.env.PORT || 3001
 
-// Tell Express to serve static files from the client's 
-// public folder so the browser can access them
-
 app.use('/public', express.static('/public'))
 app.use('/scripts', express.static('/public/scripts'))
 app.use('/ponies', poniesRouter)
