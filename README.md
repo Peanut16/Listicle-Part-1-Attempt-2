@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
 The following **additional** features are implemented:
 
@@ -30,14 +30,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='screen recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
+GIF created with ...  Add GIF tool here [byzanz](https://github.com/rhcarvalho/byzanz-gui)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -46,6 +44,8 @@ GIF created with ...  Add GIF tool here
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+Getting the styling to work because Pico was overidding stuff a lot.
 
 ## License
 

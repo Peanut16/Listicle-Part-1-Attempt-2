@@ -1,3 +1,5 @@
+import '/src/style.css'
+
 const renderPony = async () => {
     const response = await fetch('/ponies')
     const data = await response.json()

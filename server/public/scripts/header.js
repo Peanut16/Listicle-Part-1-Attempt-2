@@ -7,7 +7,7 @@ const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerTitle = document.createElement('h1')
-headerTitle.textContent = 'My Little Pony characters'
+headerTitle.textContent = 'My Little Pony Characters'
 
 const headerImg = document.createElement('img')
 headerImg.className = "header-img"
