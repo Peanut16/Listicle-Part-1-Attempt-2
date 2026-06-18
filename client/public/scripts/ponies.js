@@ -3,10 +3,13 @@ const renderPonies = async () => {
     const response = await fetch('/ponies')
     const data = await response.json()
 
+    console.log(data)
+
     const mainContent = document.getElementById('main-content')
 
     if (data) {
-        data.forEach(pony => {
+        
+        data.map(pony => {
             const card = document.createElement('div')
             card.classList.add('card')
 

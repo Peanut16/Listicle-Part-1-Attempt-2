@@ -1,3 +1,4 @@
+import './config/dotenv.js'
 import express from 'express'
 import poniesRouter from './routes/ponies.js'
 
